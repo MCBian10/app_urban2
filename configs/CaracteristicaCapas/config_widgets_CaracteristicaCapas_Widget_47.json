@@ -1,0 +1,21 @@
+{
+  "widgetName": "CaracteristicaCapas",
+  "inPanelVar": {
+    "params": {
+      "app_id": "https://services9.arcgis.com/L48elPyUkzKknhDs/arcgis/rest/services/Edificios_CN2/FeatureServer/0",
+      "count": 4,
+      "tablefields": [
+        "tabla_de_huellas_IDEA2_contro_2",
+        "tabla_de_huellas_IDEA2_contro_6",
+        "AlturaEdificios",
+        "tabla_de_huellas_IDEA2_control_"
+      ],
+      "tablelabels": [
+        "Uso Suelo ",
+        "Superficie Edificable",
+        "Altura del Edificio",
+        "Pisos del Edifico"
+      ]
+    }
+  }
+}

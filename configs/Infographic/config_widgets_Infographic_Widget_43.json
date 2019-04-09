@@ -1,0 +1,206 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 49.64872758084621,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "15520374408560889-6937315472607222-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "15520374408560889-6937315472607222-3"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 50.3512724191538,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "15520374408560889-6937315472607222-4"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "15520374408560889-6937315472607222-4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "15520374408560889-6937315472607222-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "15520374408560889-6937315472607222-2",
+      "type": "image",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        }
+      }
+    },
+    {
+      "id": "15520374408560889-6937315472607222-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [
+          {
+            "value": [
+              2657313
+            ],
+            "operator": "greater",
+            "valueColor": "#dc143c",
+            "iconInfo": {
+              "color": "#ffffff",
+              "icon": "icon-wrong",
+              "placement": "left"
+            },
+            "uniqueID": "27705586614045297"
+          },
+          {
+            "value": [
+              2657313
+            ],
+            "operator": "smaller",
+            "valueColor": "#ba55d3",
+            "iconInfo": {
+              "color": "#2b4b6d",
+              "icon": "icon-right",
+              "placement": "left"
+            },
+            "uniqueID": "05475846396595396"
+          }
+        ],
+        "background": {
+          "backgroundColor": "#474747",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": "36",
+          "textColor": "#ffffff"
+        },
+        "dataFormat": {
+          "unit": "thousand",
+          "decimalPlaces": 2,
+          "digitSeparator": true,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "sum",
+                "field": "tabla_de_huellas_IDEA2_contro_6"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "15520374408560889-6937315472607222-4",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#474747",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#ffffff"
+        },
+        "text": "Plan General de Ordenación Urbana "
+      }
+    }
+  ],
+  "wid": "15520374408560889",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Edificios",
+    "layerId": "ee3b239ccbf24eea9cf70594179755c8",
+    "useSelection": true,
+    "filterByExtent": "on"
+  },
+  "name": "number"
+}

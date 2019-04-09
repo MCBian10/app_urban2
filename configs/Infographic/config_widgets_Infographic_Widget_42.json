@@ -1,0 +1,152 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "stack",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "activeItemIndex": 0,
+        "height": 100,
+        "content": [
+          {
+            "type": "component",
+            "isClosable": true,
+            "componentName": "jimu grid",
+            "componentState": {
+              "id": "23142400935377339-2"
+            },
+            "reorderEnabled": true,
+            "title": "jimu grid",
+            "id": "23142400935377339-2"
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "23142400935377339-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "23142400935377339-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "category",
+        "type": "column",
+        "categoryField": "tabla_de_huellas_IDEA2_contro_2",
+        "dateConfig": null,
+        "valueFields": [
+          "AlturaEdificios"
+        ],
+        "operation": "average",
+        "nullValue": true,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#474747",
+        "seriesStyle": {
+          "styles": [
+            {
+              "name": "AlturaEdificios",
+              "style": {
+                "color": "#087E92"
+              },
+              "label": "AlturaEdificios"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#ffffff"
+          }
+        },
+        "yAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          }
+        },
+        "marks": {}
+      }
+    },
+    {
+      "id": "23142400935377339-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "column",
+  "wid": "23142400935377339",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Edificios",
+    "layerId": "ee3b239ccbf24eea9cf70594179755c8",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
